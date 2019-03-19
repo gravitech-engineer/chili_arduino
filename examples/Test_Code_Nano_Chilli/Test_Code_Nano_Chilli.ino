@@ -15,7 +15,7 @@
 #include <HTS221.h>
 #include <Adafruit_LSM9DS1.h>
 #include <Adafruit_Sensor.h> 
-#include <Adafruit_BMP280.h>
+#include <Adafruit_BMP280.h> //Default ADDR in lib 0x76 But in HW use 0x77 Edit ARRD in lib to use it.
 #include <KBChain_LCD.h> 
 #include <Adafruit_NeoPixel.h>
 
